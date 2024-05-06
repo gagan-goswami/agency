@@ -1,0 +1,138 @@
+/* Styles for screens up to 991px */
+@media (max-width: 1200px) {
+  .testimonial-section .slide-item {
+    padding: 40px;
+    margin: 10px 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-section .hero-caption {
+    width: 100%;
+  }
+
+  .workprocess-section .section-title,
+  .oursolution-section .section-title,
+  .newsletter-section .section-title,
+  .ourproject-section .section-title,
+  .funfact-section .section-title,
+  .sponsor-section .section-title,
+  .testimonial-section .section-title {
+    margin: 0px 0px 45px 0px;
+    text-align: center;
+  }
+
+  .footer-section .footer-item {
+    margin-bottom: 25px;
+  }
+
+  .funfact-section .funfact-header-element {
+    right: -225px;
+  }
+
+  .funfact-section .funfact-footer-element {
+    left: -225px;
+    bottom: 100px;
+  }
+
+  .cta-section .cta-item h2 {
+    line-height: 1.5em;
+    margin-bottom: 25px;
+  }
+
+  .testimonial-section .testimonial-image {
+    margin-bottom: 25px;
+  }
+
+  .header-section .nav-link::after {
+    width: 100%;
+    left: 0;
+    height: 1px;
+  }
+
+  .newsletter-section .portfil-btn {
+    min-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .ourproject-section .project-content p {
+    margin: 20px 0px;
+    line-height: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section .hero-image img {
+    width: 100%;
+    position: unset;
+  }
+
+  .workprocess-section .section-title h2,
+  .oursolution-section .section-title h2,
+  .newsletter-section .section-title h2,
+  .ourproject-section .section-title h2,
+  .funfact-section .section-title h2,
+  .sponsor-section .section-title h2,
+  .testimonial-section .section-title h2 {
+    font-size: 30px;
+  }
+
+  .testimonial-section .testimonial-element img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .hero-section .hero-image {
+    display: none;
+  }
+
+  .oursolution-section .owl-carousel .owl-nav button.owl-prev {
+    top: 100%;
+    left: 25px;
+    height: 30px;
+    width: 30px;
+    font-size: 24px;
+  }
+
+  .oursolution-section .owl-carousel .owl-nav button.owl-next {
+    top: 100%;
+    left: 65px;
+    height: 30px;
+    width: 30px;
+    font-size: 24px;
+  }
+
+  .ourproject-section .project-item {
+    padding: 0px 0px 40px 0px;
+  }
+
+  .ourproject-section .project-content p {
+    margin: 20px 0px;
+  }
+
+  .ourproject-section .project-item:hover .project-content {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 399px) {
+  .hero-section .hero-caption h2 {
+    font-size: 34px;
+  }
+
+  .funfact-section .funfact-content span {
+    font-size: 40px;
+  }
+
+  .about-section-one .about-content h2,
+  .about-section-two .about-content h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .hero-section .hero-caption h2 {
+    font-size: 50px;
+  }
+}
